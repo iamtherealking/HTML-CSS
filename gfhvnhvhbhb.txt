@@ -1,0 +1,69 @@
+List
+---------------------
+	is used to create an items in particular format.
+	
+	1)Ordered List
+	2)Unordered List
+	3)Definition List
+
+	1)Ordered List
+	----------------------------
+	To create an Ordered list we can use <ol>  </ol>
+	To add list items ..we can use <li>  </li> tag.
+	
+	<ol>
+	<li>ABc</li>
+	<li>Xyz</li>
+	</ol>
+
+	Default type is 1,2...
+	
+	Types
+	----------
+	type="a"
+	type="A"
+	type="i"
+	type="I"
+
+	<ol type="a">
+	<li>ABc</li>
+	<li>Xyz</li>
+	</ol>
+
+	start properties...if you want to start from specifice position.
+
+	<ol type="i" start="x">
+	<li>ABc</li>
+	<li>Xyz</li>
+	</ol>
+===========================================================================
+	
+	Unordered List
+	--------------------------- 
+		Default type is disc.
+		To create a unordered list we can use <ul> </ul>
+		To add items in list <li> </li>
+	
+	
+	<ul>
+	<li>Abc</li>
+	<li>zzz</li>
+	</ul>
+	
+	Type
+	--------
+	type="square/circle"
+	
+==============================================================================
+	Definition List
+	-----------------------
+		is used to define the definition.
+		<dl> </dl> definition list
+		<dh> </dh>  definition heading   or <dt> </dt>
+		<dd> </dd>  definition description.
+
+
+	<dl>
+	<dh>Computer</dh>
+	<dd>Computer is an electronic machine</dd>
+	</dl>
